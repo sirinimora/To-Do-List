@@ -125,6 +125,8 @@ input,select,textarea{font:inherit;color:inherit}
 .search-kbd{position:absolute;right:10px;font-size:.65rem;padding:2px 6px;background:var(--bg-input);border:1px solid var(--border);border-radius:4px;color:var(--text-muted);pointer-events:none}
 .sort-select{padding:.6rem 2rem .6rem .8rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);font-size:.82rem;color:var(--text);cursor:pointer;outline:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%238888a8' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 8px center;transition:all var(--transition)}
 .sort-select:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}
+.sort-select option,.form-select option{background:#1a1a2e;color:#e8e8f0}
+[data-theme="light"] .sort-select option,[data-theme="light"] .form-select option{background:#ffffff;color:#1a1a2e}
 
 /* ========== PROGRESS ========== */
 .progress-section{margin-bottom:1.5rem;padding:1rem 1.25rem;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);backdrop-filter:blur(10px)}
